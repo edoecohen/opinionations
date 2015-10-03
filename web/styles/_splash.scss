@@ -1,0 +1,31 @@
+// Splash page
+
+body.splash {
+  padding: 20vh 0 0;
+  background: $brand-primary;
+
+  h1, p, a {
+    color: #fff;
+  }
+
+  h1, p, .splash-logo {
+    margin-bottom: 30px;
+  }
+
+  a:not(.btn) {
+    text-decoration: underline;
+  }
+
+  p.copyright {
+    margin-top: 150px;
+    font-size: 12px;
+    color: lighten($brand-primary, 12%);
+
+    a {
+      color: lighten($brand-primary, 12%);
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
