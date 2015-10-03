@@ -1,0 +1,25 @@
+{
+  "name": "Opinionations",
+  "version": "0.0.0",
+  "homepage": "https://github.com/edoecohen/opinionations",
+  "authors": [
+    "Edoe Cohen <edoecohen@gmail.com>"
+  ],
+  "description": "Record the news and voice your opinion!",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.7"
+  }
+}
