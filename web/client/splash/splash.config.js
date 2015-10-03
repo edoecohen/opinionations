@@ -5,7 +5,7 @@
 	    .module('app.splash', ['app.core'])
 
 	    .config(['$stateProvider', function($stateProvider) {
-	    	
+
 	      $stateProvider
         .state('splash', {
           url: '/welcome',
