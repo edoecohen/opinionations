@@ -1,8 +1,11 @@
-// Splash page
+// Login page
 
-body.splash {
-  padding: 15px 0;
+body {
   background: $brand-primary;
+}
+
+.login {
+  padding: 15px 0;
 
   nav.navbar {
     display: none !important;
@@ -10,6 +13,10 @@ body.splash {
 
   h1, h3, p, a, blockquote {
     color: #fff;
+  }
+
+  p {
+    font-size: 18px;
   }
 
   p, .splash-logo {
@@ -25,13 +32,13 @@ body.splash {
     width: 150px;
   }
 
+  .voice {
+    font-weight: bold;
+  }
+
   blockquote {
     border: none;
     font-size: 24px;
-  }
-
-  a:not(.btn) {
-    text-decoration: underline;
   }
 
   div.preview.coming-soon {

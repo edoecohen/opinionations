@@ -8,7 +8,7 @@
 	    	
 	      $stateProvider
         .state('home', {
-          url: '/',
+          url: '/home',
           views: {
           	'': {
       		    templateUrl: 'client/home/home.html',

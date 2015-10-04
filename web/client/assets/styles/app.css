@@ -1,5 +1,6 @@
 .navbar {
 	margin-bottom: 0;
+	display: none;
 }
 
 /*.container {
@@ -23,6 +24,11 @@
 .recording h1 {
   margin: 0 0 3px;
   font-size: 1.3em;
+}
+
+.recording h1 a {
+	color: #3454D1;
+	font-weight: 600;
 }
 
 .recording h1 a:hover {
