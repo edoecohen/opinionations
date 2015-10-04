@@ -1,0 +1,8 @@
+.app-logo {
+  .logo-back {
+    color: $brand-primary;
+  }
+  .logo-bg {
+    color: lighten($brand-primary, 12%);
+  }
+}
