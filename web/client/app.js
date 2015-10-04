@@ -5,7 +5,7 @@
     angular.module('app', [
       'app.core',
       'app.home',
-      'app.splash',
+      'app.login',
       'app.topics',
       'app.topic',
       'app.users',

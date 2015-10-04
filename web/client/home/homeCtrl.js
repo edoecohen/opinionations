@@ -4,11 +4,13 @@
     .module('app.home')
     .controller('HomeCtrl', HomeCtrl);
 
-  HomeCtrl.$inject = [];
+  HomeCtrl.$inject = ['MockData'];
 
-  function HomeCtrl() {
+  function HomeCtrl(MockData) {
 
     var vm = this;
+
+    vm.data = MockData;
 
   };
 

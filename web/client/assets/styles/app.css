@@ -1,0 +1,69 @@
+.navbar {
+	margin-bottom: 0;
+}
+
+.container {
+	background-color: #F8F8F8;
+}
+
+/* RECORDING */
+
+.recording {
+	padding: 20px;
+  background-color: white;
+  margin: 20px 0;
+  border: 1px solid #C3C3C3;
+  border-radius: 4px;
+}
+
+.recording img {
+	width: 100%;
+}
+
+.recording h1 {
+  margin: 0 0 3px;
+  font-size: 1.3em;
+}
+
+.recording h1 a:hover {
+	text-decoration: none;
+}
+
+.metaData {
+	color: #797979;
+	margin-bottom: 15px;
+	list-style: none;
+	padding: 0;
+}
+
+.metaData li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.topics {
+	padding: 0;
+}
+
+.opinionBy {
+	margin-top: 10px;
+	border-top: 1px solid #C3C3C3;
+	padding-top: 3px;
+}
+
+.opinionBy img {
+	width: 20%;
+  border-radius: 50%;
+  float: left;
+  margin-top: 8px;
+}
+
+.opBy {
+	font-size: 0.9em;
+	color: grey;
+}
+
+.opName {
+	margin: 7px 0 0 10px;
+	display: inline-block;
+}

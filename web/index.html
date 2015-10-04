@@ -13,7 +13,8 @@
 
     <link rel="stylesheet" href="/css/main.css">
 
-    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" href="client/assets/styles/app.css">
+
 
 </head>
 <body class="splash">
@@ -59,12 +60,13 @@
       </nav>
   </header>
 
-  <div class="container main-content">
+  <div class="container">
     <div class="row">
       <div ui-view class="main-content"></div>
     </div>
   </div>
-
+    
+  <script src="/bower_components/modernizr/modernizr.js"></script>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="bower_components/angular/angular.min.js"></script>
@@ -72,12 +74,13 @@
   <script src="client/app.js"></script>
   <script src="client/core/core.module.js"></script>
   <script src="client/core/core.config.js"></script>
+  <script src="client/assets/data/mockData.js"></script>
   <script src="client/home/home.config.js"></script>
   <script src="client/home/homeCtrl.js"></script>
   <script src="client/home/home.config.js"></script>
   <script src="client/home/homeCtrl.js"></script>
-  <script src="client/splash/splash.config.js"></script>
-  <script src="client/splash/splashCtrl.js"></script>
+  <script src="client/login/login.config.js"></script>
+  <script src="client/login/loginCtrl.js"></script>
   <script src="client/topics/topics.config.js"></script>
   <script src="client/topics/topicsCtrl.js"></script>
   <script src="client/topic/topic.config.js"></script>
