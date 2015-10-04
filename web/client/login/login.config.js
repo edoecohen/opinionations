@@ -11,7 +11,7 @@
           url: '/',
           views: {
           	'': {
-      		    templateUrl: 'client/login/login.html',
+      		    templateUrl: 'web/client/login/login.html',
       		    controller: 'LoginCtrl',
               controllerAs: 'vm'
           	}
